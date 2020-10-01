@@ -47,7 +47,7 @@ if __name__ == '__main__':
             print(f"Water Drinking time....Please drink a glass of water{aa}... Enter 'Drank' to stop the alarm.")
             speak(f"This you your water drinking time...Please drink a glass of water{aa}")
 
-            musiconloop('water.mp3', 'Drank')
+#             musiconloop('enter song.mp3', 'Drank')
 
             init_water = time()
             log_now("Drank Water at")
@@ -55,7 +55,7 @@ if __name__ == '__main__':
         if time() - init_eyes > eyessecs:
             print("Eye rest time. Enter 'Done' to stop the alarm.")
             speak(f"This you your eye rest time...Please close your eyes and take rest for 5 minutes {aa}")
-            musiconloop('water.mp3', 'Done')
+#             musiconloop('enter song.mp3', 'Done')
 
             init_eyes = time()
             log_now("Eyes Relaxed at")
